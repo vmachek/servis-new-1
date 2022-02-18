@@ -36,51 +36,51 @@
     <link rel="stylesheet" href="../../assets/styles/tailwind.css" />
     <title>Settings | Notus JS by Creative Tim</title>
   </head>
-  <body class="text-blueGray-700 antialiased">
+  <body class="antialiased text-blueGray-700">
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root">
       <nav
-        class="md:left-0 md:block md:fixed md:top-0 md:bottom-0 md:overflow-y-auto md:flex-row md:flex-nowrap md:overflow-hidden shadow-xl bg-white flex flex-wrap items-center justify-between relative md:w-64 z-10 py-4 px-6"
+        class="relative z-10 flex flex-wrap items-center justify-between px-6 py-4 bg-white shadow-xl md:left-0 md:block md:fixed md:top-0 md:bottom-0 md:overflow-y-auto md:flex-row md:flex-nowrap md:overflow-hidden md:w-64"
       >
         <div
-          class="md:flex-col md:items-stretch md:min-h-full md:flex-nowrap px-0 flex flex-wrap items-center justify-between w-full mx-auto"
+          class="flex flex-wrap items-center justify-between w-full px-0 mx-auto md:flex-col md:items-stretch md:min-h-full md:flex-nowrap"
         >
           <button
-            class="cursor-pointer text-black opacity-50 md:hidden px-3 py-1 text-xl leading-none bg-transparent rounded border border-solid border-transparent"
+            class="px-3 py-1 text-xl leading-none text-black bg-transparent border border-transparent border-solid rounded opacity-50 cursor-pointer md:hidden"
             type="button"
             onclick="toggleNavbar('example-collapse-sidebar')"
           >
             <i class="fas fa-bars"></i>
           </button>
           <a
-            class="md:block text-left md:pb-2 text-blueGray-600 mr-0 inline-block whitespace-nowrap text-sm uppercase font-bold p-4 px-0"
+            class="inline-block p-4 px-0 mr-0 text-sm font-bold text-left uppercase md:block md:pb-2 text-blueGray-600 whitespace-nowrap"
             href="../../index.html"
           >
             Notus JS
           </a>
-          <ul class="md:hidden items-center flex flex-wrap list-none">
-            <li class="inline-block relative">
+          <ul class="flex flex-wrap items-center list-none md:hidden">
+            <li class="relative inline-block">
               <a
-                class="text-blueGray-500 block py-1 px-3"
+                class="block px-3 py-1 text-blueGray-500"
                 href="#pablo"
                 onclick="openDropdown(event,'notification-dropdown')"
                 ><i class="fas fa-bell"></i
               ></a>
               <div
-                class="hidden bg-white text-base z-50 float-left py-2 list-none text-left rounded shadow-lg min-w-48"
+                class="z-50 hidden float-left py-2 text-base text-left list-none bg-white rounded shadow-lg min-w-48"
                 id="notification-dropdown"
               >
                 <a
                   href="#pablo"
-                  class="text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
+                  class="block w-full px-4 py-2 text-sm font-normal bg-transparent whitespace-nowrap text-blueGray-700"
                   >Action</a
                 ><a
                   href="#pablo"
-                  class="text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
+                  class="block w-full px-4 py-2 text-sm font-normal bg-transparent whitespace-nowrap text-blueGray-700"
                   >Another action</a
                 ><a
                   href="#pablo"
-                  class="text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
+                  class="block w-full px-4 py-2 text-sm font-normal bg-transparent whitespace-nowrap text-blueGray-700"
                   >Something else here</a
                 >
                 <div
@@ -88,40 +88,40 @@
                 ></div>
                 <a
                   href="#pablo"
-                  class="text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
+                  class="block w-full px-4 py-2 text-sm font-normal bg-transparent whitespace-nowrap text-blueGray-700"
                   >Seprated link</a
                 >
               </div>
             </li>
-            <li class="inline-block relative">
+            <li class="relative inline-block">
               <a
-                class="text-blueGray-500 block"
+                class="block text-blueGray-500"
                 href="#pablo"
                 onclick="openDropdown(event,'user-responsive-dropdown')"
-                ><div class="items-center flex">
+                ><div class="flex items-center">
                   <span
-                    class="w-12 h-12 text-sm text-white bg-blueGray-200 inline-flex items-center justify-center rounded-full"
+                    class="inline-flex items-center justify-center w-12 h-12 text-sm text-white rounded-full bg-blueGray-200"
                     ><img
                       alt="..."
-                      class="w-full rounded-full align-middle border-none shadow-lg"
+                      class="w-full align-middle border-none rounded-full shadow-lg"
                       src="../../assets/img/team-1-800x800.jpg"
                   /></span></div
               ></a>
               <div
-                class="hidden bg-white text-base z-50 float-left py-2 list-none text-left rounded shadow-lg min-w-48"
+                class="z-50 hidden float-left py-2 text-base text-left list-none bg-white rounded shadow-lg min-w-48"
                 id="user-responsive-dropdown"
               >
                 <a
                   href="#pablo"
-                  class="text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
+                  class="block w-full px-4 py-2 text-sm font-normal bg-transparent whitespace-nowrap text-blueGray-700"
                   >Action</a
                 ><a
                   href="#pablo"
-                  class="text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
+                  class="block w-full px-4 py-2 text-sm font-normal bg-transparent whitespace-nowrap text-blueGray-700"
                   >Another action</a
                 ><a
                   href="#pablo"
-                  class="text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
+                  class="block w-full px-4 py-2 text-sm font-normal bg-transparent whitespace-nowrap text-blueGray-700"
                   >Something else here</a
                 >
                 <div
@@ -129,32 +129,32 @@
                 ></div>
                 <a
                   href="#pablo"
-                  class="text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
+                  class="block w-full px-4 py-2 text-sm font-normal bg-transparent whitespace-nowrap text-blueGray-700"
                   >Seprated link</a
                 >
               </div>
             </li>
           </ul>
           <div
-            class="md:flex md:flex-col md:items-stretch md:opacity-100 md:relative md:mt-4 md:shadow-none shadow absolute top-0 left-0 right-0 z-40 overflow-y-auto overflow-x-hidden h-auto items-center flex-1 rounded hidden"
+            class="absolute top-0 left-0 right-0 z-40 items-center flex-1 hidden h-auto overflow-x-hidden overflow-y-auto rounded shadow md:flex md:flex-col md:items-stretch md:opacity-100 md:relative md:mt-4 md:shadow-none"
             id="example-collapse-sidebar"
           >
             <div
-              class="md:min-w-full md:hidden block pb-4 mb-4 border-b border-solid border-blueGray-200"
+              class="block pb-4 mb-4 border-b border-solid md:min-w-full md:hidden border-blueGray-200"
             >
               <div class="flex flex-wrap">
                 <div class="w-6/12">
                   <a
-                    class="md:block text-left md:pb-2 text-blueGray-600 mr-0 inline-block whitespace-nowrap text-sm uppercase font-bold p-4 px-0"
+                    class="inline-block p-4 px-0 mr-0 text-sm font-bold text-left uppercase md:block md:pb-2 text-blueGray-600 whitespace-nowrap"
                     href="../../index.html"
                   >
                     Notus JS
                   </a>
                 </div>
-                <div class="w-6/12 flex justify-end">
+                <div class="flex justify-end w-6/12">
                   <button
                     type="button"
-                    class="cursor-pointer text-black opacity-50 md:hidden px-3 py-1 text-xl leading-none bg-transparent rounded border border-solid border-transparent"
+                    class="px-3 py-1 text-xl leading-none text-black bg-transparent border border-transparent border-solid rounded opacity-50 cursor-pointer md:hidden"
                     onclick="toggleNavbar('example-collapse-sidebar')"
                   >
                     <i class="fas fa-times"></i>
@@ -163,11 +163,11 @@
               </div>
             </div>
             <form class="mt-6 mb-4 md:hidden">
-              <div class="mb-3 pt-0">
+              <div class="pt-0 mb-3">
                 <input
                   type="text"
                   placeholder="Search"
-                  class="border-0 px-3 py-2 h-12 border border-solid border-blueGray-500 placeholder-blueGray-300 text-blueGray-600 bg-white rounded text-base leading-snug shadow-none outline-none focus:outline-none w-full font-normal"
+                  class="w-full h-12 px-3 py-2 text-base font-normal leading-snug bg-white border border-0 border-solid rounded shadow-none outline-none border-blueGray-500 placeholder-blueGray-300 text-blueGray-600 focus:outline-none"
                 />
               </div>
             </form>
@@ -175,19 +175,19 @@
             <hr class="my-4 md:min-w-full" />
             <!-- Heading -->
             <h6
-              class="md:min-w-full text-blueGray-500 text-xs uppercase font-bold block pt-1 pb-4 no-underline"
+              class="block pt-1 pb-4 text-xs font-bold no-underline uppercase md:min-w-full text-blueGray-500"
             >
               Admin Layout Pages
             </h6>
             <!-- Navigation -->
 
-            <ul class="md:flex-col md:min-w-full flex flex-col list-none">
+            <ul class="flex flex-col list-none md:flex-col md:min-w-full">
               <li class="items-center">
                 <a
                   href="./dashboard.html"
-                  class="text-xs uppercase py-3 font-bold block text-blueGray-700 hover:text-blueGray-500"
+                  class="block py-3 text-xs font-bold uppercase text-blueGray-700 hover:text-blueGray-500"
                 >
-                  <i class="fas fa-tv mr-2 text-sm text-blueGray-300"></i>
+                  <i class="mr-2 text-sm fas fa-tv text-blueGray-300"></i>
                   Dashboard
                 </a>
               </li>
@@ -195,9 +195,9 @@
               <li class="items-center">
                 <a
                   href="./settings.html"
-                  class="text-xs uppercase py-3 font-bold block text-pink-500 hover:text-pink-600"
+                  class="block py-3 text-xs font-bold text-indigo-500 uppercase hover:text-indigo-600"
                 >
-                  <i class="fas fa-tools mr-2 text-sm opacity-75"></i>
+                  <i class="mr-2 text-sm opacity-75 fas fa-tools"></i>
                   Settings
                 </a>
               </li>
@@ -205,9 +205,9 @@
               <li class="items-center">
                 <a
                   href="./tables.html"
-                  class="text-xs uppercase py-3 font-bold block text-blueGray-700 hover:text-blueGray-500"
+                  class="block py-3 text-xs font-bold uppercase text-blueGray-700 hover:text-blueGray-500"
                 >
-                  <i class="fas fa-table mr-2 text-sm text-blueGray-300"></i>
+                  <i class="mr-2 text-sm fas fa-table text-blueGray-300"></i>
                   Tables
                 </a>
               </li>
@@ -215,10 +215,10 @@
               <li class="items-center">
                 <a
                   href="./maps.html"
-                  class="text-xs uppercase py-3 font-bold block text-blueGray-700 hover:text-blueGray-500"
+                  class="block py-3 text-xs font-bold uppercase text-blueGray-700 hover:text-blueGray-500"
                 >
                   <i
-                    class="fas fa-map-marked mr-2 text-sm text-blueGray-300"
+                    class="mr-2 text-sm fas fa-map-marked text-blueGray-300"
                   ></i>
                   Maps
                 </a>
@@ -229,22 +229,22 @@
             <hr class="my-4 md:min-w-full" />
             <!-- Heading -->
             <h6
-              class="md:min-w-full text-blueGray-500 text-xs uppercase font-bold block pt-1 pb-4 no-underline"
+              class="block pt-1 pb-4 text-xs font-bold no-underline uppercase md:min-w-full text-blueGray-500"
             >
               Auth Layout Pages
             </h6>
             <!-- Navigation -->
 
             <ul
-              class="md:flex-col md:min-w-full flex flex-col list-none md:mb-4"
+              class="flex flex-col list-none md:flex-col md:min-w-full md:mb-4"
             >
               <li class="items-center">
                 <a
                   href="../auth/login.html"
-                  class="text-blueGray-700 hover:text-blueGray-500 text-xs uppercase py-3 font-bold block"
+                  class="block py-3 text-xs font-bold uppercase text-blueGray-700 hover:text-blueGray-500"
                 >
                   <i
-                    class="fas fa-fingerprint text-blueGray-300 mr-2 text-sm"
+                    class="mr-2 text-sm fas fa-fingerprint text-blueGray-300"
                   ></i>
                   Login
                 </a>
@@ -253,10 +253,10 @@
               <li class="items-center">
                 <a
                   href="../auth/register.html"
-                  class="text-blueGray-700 hover:text-blueGray-500 text-xs uppercase py-3 font-bold block"
+                  class="block py-3 text-xs font-bold uppercase text-blueGray-700 hover:text-blueGray-500"
                 >
                   <i
-                    class="fas fa-clipboard-list text-blueGray-300 mr-2 text-sm"
+                    class="mr-2 text-sm fas fa-clipboard-list text-blueGray-300"
                   ></i>
                   Register
                 </a>
@@ -267,22 +267,22 @@
             <hr class="my-4 md:min-w-full" />
             <!-- Heading -->
             <h6
-              class="md:min-w-full text-blueGray-500 text-xs uppercase font-bold block pt-1 pb-4 no-underline"
+              class="block pt-1 pb-4 text-xs font-bold no-underline uppercase md:min-w-full text-blueGray-500"
             >
               No Layout Pages
             </h6>
             <!-- Navigation -->
 
             <ul
-              class="md:flex-col md:min-w-full flex flex-col list-none md:mb-4"
+              class="flex flex-col list-none md:flex-col md:min-w-full md:mb-4"
             >
               <li class="items-center">
                 <a
                   href="../landing.html"
-                  class="text-blueGray-700 hover:text-blueGray-500 text-xs uppercase py-3 font-bold block"
+                  class="block py-3 text-xs font-bold uppercase text-blueGray-700 hover:text-blueGray-500"
                 >
                   <i
-                    class="fas fa-newspaper text-blueGray-300 mr-2 text-sm"
+                    class="mr-2 text-sm fas fa-newspaper text-blueGray-300"
                   ></i>
                   Landing Page
                 </a>
@@ -291,10 +291,10 @@
               <li class="items-center">
                 <a
                   href="../profile.html"
-                  class="text-blueGray-700 hover:text-blueGray-500 text-xs uppercase py-3 font-bold block"
+                  class="block py-3 text-xs font-bold uppercase text-blueGray-700 hover:text-blueGray-500"
                 >
                   <i
-                    class="fas fa-user-circle text-blueGray-300 mr-2 text-sm"
+                    class="mr-2 text-sm fas fa-user-circle text-blueGray-300"
                   ></i>
                   Profile Page
                 </a>
@@ -305,22 +305,22 @@
             <hr class="my-4 md:min-w-full" />
             <!-- Heading -->
             <h6
-              class="md:min-w-full text-blueGray-500 text-xs uppercase font-bold block pt-1 pb-4 no-underline"
+              class="block pt-1 pb-4 text-xs font-bold no-underline uppercase md:min-w-full text-blueGray-500"
             >
               Documentation
             </h6>
             <!-- Navigation -->
             <ul
-              class="md:flex-col md:min-w-full flex flex-col list-none md:mb-4"
+              class="flex flex-col list-none md:flex-col md:min-w-full md:mb-4"
             >
               <li class="inline-flex">
                 <a
                   href="https://www.creative-tim.com/learning-lab/tailwind/js/colors/notus"
                   target="_blank"
-                  class="text-blueGray-700 hover:text-blueGray-500 text-sm block mb-4 no-underline font-semibold"
+                  class="block mb-4 text-sm font-semibold no-underline text-blueGray-700 hover:text-blueGray-500"
                 >
                   <i
-                    class="fas fa-paint-brush mr-2 text-blueGray-300 text-base"
+                    class="mr-2 text-base fas fa-paint-brush text-blueGray-300"
                   ></i>
                   Styles
                 </a>
@@ -330,10 +330,10 @@
                 <a
                   href="https://www.creative-tim.com/learning-lab/tailwind/js/alerts/notus"
                   target="_blank"
-                  class="text-blueGray-700 hover:text-blueGray-500 text-sm block mb-4 no-underline font-semibold"
+                  class="block mb-4 text-sm font-semibold no-underline text-blueGray-700 hover:text-blueGray-500"
                 >
                   <i
-                    class="fab fa-css3-alt mr-2 text-blueGray-300 text-base"
+                    class="mr-2 text-base fab fa-css3-alt text-blueGray-300"
                   ></i>
                   CSS Components
                 </a>
@@ -343,10 +343,10 @@
                 <a
                   href="https://www.creative-tim.com/learning-lab/tailwind/angular/overview/notus"
                   target="_blank"
-                  class="text-blueGray-700 hover:text-blueGray-500 text-sm block mb-4 no-underline font-semibold"
+                  class="block mb-4 text-sm font-semibold no-underline text-blueGray-700 hover:text-blueGray-500"
                 >
                   <i
-                    class="fab fa-angular mr-2 text-blueGray-300 text-base"
+                    class="mr-2 text-base fab fa-angular text-blueGray-300"
                   ></i>
                   Angular
                 </a>
@@ -356,10 +356,10 @@
                 <a
                   href="https://www.creative-tim.com/learning-lab/tailwind/js/overview/notus"
                   target="_blank"
-                  class="text-blueGray-700 hover:text-blueGray-500 text-sm block mb-4 no-underline font-semibold"
+                  class="block mb-4 text-sm font-semibold no-underline text-blueGray-700 hover:text-blueGray-500"
                 >
                   <i
-                    class="fab fa-js-square mr-2 text-blueGray-300 text-base"
+                    class="mr-2 text-base fab fa-js-square text-blueGray-300"
                   ></i>
                   Javascript
                 </a>
@@ -369,9 +369,9 @@
                 <a
                   href="https://www.creative-tim.com/learning-lab/tailwind/nextjs/overview/notus"
                   target="_blank"
-                  class="text-blueGray-700 hover:text-blueGray-500 text-sm block mb-4 no-underline font-semibold"
+                  class="block mb-4 text-sm font-semibold no-underline text-blueGray-700 hover:text-blueGray-500"
                 >
-                  <i class="fab fa-react mr-2 text-blueGray-300 text-base"></i>
+                  <i class="mr-2 text-base fab fa-react text-blueGray-300"></i>
                   NextJS
                 </a>
               </li>
@@ -380,9 +380,9 @@
                 <a
                   href="https://www.creative-tim.com/learning-lab/tailwind/react/overview/notus"
                   target="_blank"
-                  class="text-blueGray-700 hover:text-blueGray-500 text-sm block mb-4 no-underline font-semibold"
+                  class="block mb-4 text-sm font-semibold no-underline text-blueGray-700 hover:text-blueGray-500"
                 >
-                  <i class="fab fa-react mr-2 text-blueGray-300 text-base"></i>
+                  <i class="mr-2 text-base fab fa-react text-blueGray-300"></i>
                   React
                 </a>
               </li>
@@ -391,9 +391,9 @@
                 <a
                   href="https://www.creative-tim.com/learning-lab/tailwind/svelte/overview/notus"
                   target="_blank"
-                  class="text-blueGray-700 hover:text-blueGray-500 text-sm block mb-4 no-underline font-semibold"
+                  class="block mb-4 text-sm font-semibold no-underline text-blueGray-700 hover:text-blueGray-500"
                 >
-                  <i class="fas fa-link mr-2 text-blueGray-300 text-base"></i>
+                  <i class="mr-2 text-base fas fa-link text-blueGray-300"></i>
                   Svelte
                 </a>
               </li>
@@ -402,9 +402,9 @@
                 <a
                   href="https://www.creative-tim.com/learning-lab/tailwind/vue/overview/notus"
                   target="_blank"
-                  class="text-blueGray-700 hover:text-blueGray-500 text-sm block mb-4 no-underline font-semibold"
+                  class="block mb-4 text-sm font-semibold no-underline text-blueGray-700 hover:text-blueGray-500"
                 >
-                  <i class="fab fa-vuejs mr-2 text-blueGray-300 text-base"></i>
+                  <i class="mr-2 text-base fab fa-vuejs text-blueGray-300"></i>
                   VueJS
                 </a>
               </li>
@@ -414,64 +414,64 @@
       </nav>
       <div class="relative md:ml-64 bg-blueGray-50">
         <nav
-          class="absolute top-0 left-0 w-full z-10 bg-transparent md:flex-row md:flex-nowrap md:justify-start flex items-center p-4"
+          class="absolute top-0 left-0 z-10 flex items-center w-full p-4 bg-transparent md:flex-row md:flex-nowrap md:justify-start"
         >
           <div
-            class="w-full mx-autp items-center flex justify-between md:flex-nowrap flex-wrap md:px-10 px-4"
+            class="flex flex-wrap items-center justify-between w-full px-4 mx-autp md:flex-nowrap md:px-10"
           >
             <a
-              class="text-white text-sm uppercase hidden lg:inline-block font-semibold"
+              class="hidden text-sm font-semibold text-white uppercase lg:inline-block"
               href="./index.html"
               >Dashboard</a
             >
             <form
-              class="md:flex hidden flex-row flex-wrap items-center lg:ml-auto mr-3"
+              class="flex-row flex-wrap items-center hidden mr-3 md:flex lg:ml-auto"
             >
-              <div class="relative flex w-full flex-wrap items-stretch">
+              <div class="relative flex flex-wrap items-stretch w-full">
                 <span
-                  class="z-10 h-full leading-snug font-normal absolute text-center text-blueGray-300 absolute bg-transparent rounded text-base items-center justify-center w-8 pl-3 py-3"
+                  class="absolute z-10 items-center justify-center w-8 h-full py-3 pl-3 text-base font-normal leading-snug text-center bg-transparent rounded text-blueGray-300"
                   ><i class="fas fa-search"></i
                 ></span>
                 <input
                   type="text"
                   placeholder="Search here..."
-                  class="border-0 px-3 py-3 placeholder-blueGray-300 text-blueGray-600 relative bg-white bg-white rounded text-sm shadow outline-none focus:outline-none focus:ring w-full pl-10"
+                  class="relative w-full px-3 py-3 pl-10 text-sm bg-white border-0 rounded shadow outline-none placeholder-blueGray-300 text-blueGray-600 focus:outline-none focus:ring"
                 />
               </div>
             </form>
             <ul
-              class="flex-col md:flex-row list-none items-center hidden md:flex"
+              class="flex-col items-center hidden list-none md:flex-row md:flex"
             >
               <a
-                class="text-blueGray-500 block"
+                class="block text-blueGray-500"
                 href="#pablo"
                 onclick="openDropdown(event,'user-dropdown')"
               >
-                <div class="items-center flex">
+                <div class="flex items-center">
                   <span
-                    class="w-12 h-12 text-sm text-white bg-blueGray-200 inline-flex items-center justify-center rounded-full"
+                    class="inline-flex items-center justify-center w-12 h-12 text-sm text-white rounded-full bg-blueGray-200"
                     ><img
                       alt="..."
-                      class="w-full rounded-full align-middle border-none shadow-lg"
+                      class="w-full align-middle border-none rounded-full shadow-lg"
                       src="../../assets/img/team-1-800x800.jpg"
                   /></span>
                 </div>
               </a>
               <div
-                class="hidden bg-white text-base z-50 float-left py-2 list-none text-left rounded shadow-lg min-w-48"
+                class="z-50 hidden float-left py-2 text-base text-left list-none bg-white rounded shadow-lg min-w-48"
                 id="user-dropdown"
               >
                 <a
                   href="#pablo"
-                  class="text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
+                  class="block w-full px-4 py-2 text-sm font-normal bg-transparent whitespace-nowrap text-blueGray-700"
                   >Action</a
                 ><a
                   href="#pablo"
-                  class="text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
+                  class="block w-full px-4 py-2 text-sm font-normal bg-transparent whitespace-nowrap text-blueGray-700"
                   >Another action</a
                 ><a
                   href="#pablo"
-                  class="text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
+                  class="block w-full px-4 py-2 text-sm font-normal bg-transparent whitespace-nowrap text-blueGray-700"
                   >Something else here</a
                 >
                 <div
@@ -479,7 +479,7 @@
                 ></div>
                 <a
                   href="#pablo"
-                  class="text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
+                  class="block w-full px-4 py-2 text-sm font-normal bg-transparent whitespace-nowrap text-blueGray-700"
                   >Seprated link</a
                 >
               </div>
@@ -487,39 +487,39 @@
           </div>
         </nav>
         <!-- Header -->
-        <div class="relative bg-pink-600 md:pt-32 pb-32 pt-12">
-          <div class="px-4 md:px-10 mx-auto w-full">
+        <div class="relative pt-12 pb-32 bg-indigo-600 md:pt-32">
+          <div class="w-full px-4 mx-auto md:px-10">
             <div>
               <!-- Card stats -->
               <div class="flex flex-wrap">
-                <div class="w-full lg:w-6/12 xl:w-3/12 px-4">
+                <div class="w-full px-4 lg:w-6/12 xl:w-3/12">
                   <div
-                    class="relative flex flex-col min-w-0 break-words bg-white rounded mb-6 xl:mb-0 shadow-lg"
+                    class="relative flex flex-col min-w-0 mb-6 break-words bg-white rounded shadow-lg xl:mb-0"
                   >
                     <div class="flex-auto p-4">
                       <div class="flex flex-wrap">
                         <div
-                          class="relative w-full pr-4 max-w-full flex-grow flex-1"
+                          class="relative flex-1 flex-grow w-full max-w-full pr-4"
                         >
                           <h5
-                            class="text-blueGray-400 uppercase font-bold text-xs"
+                            class="text-xs font-bold uppercase text-blueGray-400"
                           >
                             Traffic
                           </h5>
-                          <span class="font-semibold text-xl text-blueGray-700">
+                          <span class="text-xl font-semibold text-blueGray-700">
                             350,897
                           </span>
                         </div>
-                        <div class="relative w-auto pl-4 flex-initial">
+                        <div class="relative flex-initial w-auto pl-4">
                           <div
-                            class="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 shadow-lg rounded-full bg-red-500"
+                            class="inline-flex items-center justify-center w-12 h-12 p-3 text-center text-white bg-red-500 rounded-full shadow-lg"
                           >
                             <i class="far fa-chart-bar"></i>
                           </div>
                         </div>
                       </div>
-                      <p class="text-sm text-blueGray-400 mt-4">
-                        <span class="text-emerald-500 mr-2">
+                      <p class="mt-4 text-sm text-blueGray-400">
+                        <span class="mr-2 text-emerald-500">
                           <i class="fas fa-arrow-up"></i> 3.48%
                         </span>
                         <span class="whitespace-nowrap">
@@ -529,34 +529,34 @@
                     </div>
                   </div>
                 </div>
-                <div class="w-full lg:w-6/12 xl:w-3/12 px-4">
+                <div class="w-full px-4 lg:w-6/12 xl:w-3/12">
                   <div
-                    class="relative flex flex-col min-w-0 break-words bg-white rounded mb-6 xl:mb-0 shadow-lg"
+                    class="relative flex flex-col min-w-0 mb-6 break-words bg-white rounded shadow-lg xl:mb-0"
                   >
                     <div class="flex-auto p-4">
                       <div class="flex flex-wrap">
                         <div
-                          class="relative w-full pr-4 max-w-full flex-grow flex-1"
+                          class="relative flex-1 flex-grow w-full max-w-full pr-4"
                         >
                           <h5
-                            class="text-blueGray-400 uppercase font-bold text-xs"
+                            class="text-xs font-bold uppercase text-blueGray-400"
                           >
                             New users
                           </h5>
-                          <span class="font-semibold text-xl text-blueGray-700">
+                          <span class="text-xl font-semibold text-blueGray-700">
                             2,356
                           </span>
                         </div>
-                        <div class="relative w-auto pl-4 flex-initial">
+                        <div class="relative flex-initial w-auto pl-4">
                           <div
-                            class="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 shadow-lg rounded-full bg-orange-500"
+                            class="inline-flex items-center justify-center w-12 h-12 p-3 text-center text-white bg-orange-500 rounded-full shadow-lg"
                           >
                             <i class="fas fa-chart-pie"></i>
                           </div>
                         </div>
                       </div>
-                      <p class="text-sm text-blueGray-400 mt-4">
-                        <span class="text-red-500 mr-2">
+                      <p class="mt-4 text-sm text-blueGray-400">
+                        <span class="mr-2 text-red-500">
                           <i class="fas fa-arrow-down"></i> 3.48%
                         </span>
                         <span class="whitespace-nowrap"> Since last week </span>
@@ -564,34 +564,34 @@
                     </div>
                   </div>
                 </div>
-                <div class="w-full lg:w-6/12 xl:w-3/12 px-4">
+                <div class="w-full px-4 lg:w-6/12 xl:w-3/12">
                   <div
-                    class="relative flex flex-col min-w-0 break-words bg-white rounded mb-6 xl:mb-0 shadow-lg"
+                    class="relative flex flex-col min-w-0 mb-6 break-words bg-white rounded shadow-lg xl:mb-0"
                   >
                     <div class="flex-auto p-4">
                       <div class="flex flex-wrap">
                         <div
-                          class="relative w-full pr-4 max-w-full flex-grow flex-1"
+                          class="relative flex-1 flex-grow w-full max-w-full pr-4"
                         >
                           <h5
-                            class="text-blueGray-400 uppercase font-bold text-xs"
+                            class="text-xs font-bold uppercase text-blueGray-400"
                           >
                             Sales
                           </h5>
-                          <span class="font-semibold text-xl text-blueGray-700">
+                          <span class="text-xl font-semibold text-blueGray-700">
                             924
                           </span>
                         </div>
-                        <div class="relative w-auto pl-4 flex-initial">
+                        <div class="relative flex-initial w-auto pl-4">
                           <div
-                            class="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 shadow-lg rounded-full bg-pink-500"
+                            class="inline-flex items-center justify-center w-12 h-12 p-3 text-center text-white bg-indigo-500 rounded-full shadow-lg"
                           >
                             <i class="fas fa-users"></i>
                           </div>
                         </div>
                       </div>
-                      <p class="text-sm text-blueGray-400 mt-4">
-                        <span class="text-orange-500 mr-2">
+                      <p class="mt-4 text-sm text-blueGray-400">
+                        <span class="mr-2 text-orange-500">
                           <i class="fas fa-arrow-down"></i> 1.10%
                         </span>
                         <span class="whitespace-nowrap"> Since yesterday </span>
@@ -599,34 +599,34 @@
                     </div>
                   </div>
                 </div>
-                <div class="w-full lg:w-6/12 xl:w-3/12 px-4">
+                <div class="w-full px-4 lg:w-6/12 xl:w-3/12">
                   <div
-                    class="relative flex flex-col min-w-0 break-words bg-white rounded mb-6 xl:mb-0 shadow-lg"
+                    class="relative flex flex-col min-w-0 mb-6 break-words bg-white rounded shadow-lg xl:mb-0"
                   >
                     <div class="flex-auto p-4">
                       <div class="flex flex-wrap">
                         <div
-                          class="relative w-full pr-4 max-w-full flex-grow flex-1"
+                          class="relative flex-1 flex-grow w-full max-w-full pr-4"
                         >
                           <h5
-                            class="text-blueGray-400 uppercase font-bold text-xs"
+                            class="text-xs font-bold uppercase text-blueGray-400"
                           >
                             Performance
                           </h5>
-                          <span class="font-semibold text-xl text-blueGray-700">
+                          <span class="text-xl font-semibold text-blueGray-700">
                             49,65%
                           </span>
                         </div>
-                        <div class="relative w-auto pl-4 flex-initial">
+                        <div class="relative flex-initial w-auto pl-4">
                           <div
-                            class="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 shadow-lg rounded-full bg-lightBlue-500"
+                            class="inline-flex items-center justify-center w-12 h-12 p-3 text-center text-white rounded-full shadow-lg bg-lightBlue-500"
                           >
                             <i class="fas fa-percent"></i>
                           </div>
                         </div>
                       </div>
-                      <p class="text-sm text-blueGray-400 mt-4">
-                        <span class="text-emerald-500 mr-2">
+                      <p class="mt-4 text-sm text-blueGray-400">
+                        <span class="mr-2 text-emerald-500">
                           <i class="fas fa-arrow-up"></i> 12%
                         </span>
                         <span class="whitespace-nowrap">
@@ -640,89 +640,89 @@
             </div>
           </div>
         </div>
-        <div class="px-4 md:px-10 mx-auto w-full -m-24">
+        <div class="w-full px-4 mx-auto -m-24 md:px-10">
           <div class="flex flex-wrap">
-            <div class="w-full lg:w-8/12 px-4">
+            <div class="w-full px-4 lg:w-8/12">
               <div
-                class="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg bg-blueGray-100 border-0"
+                class="relative flex flex-col w-full min-w-0 mb-6 break-words border-0 rounded-lg shadow-lg bg-blueGray-100"
               >
-                <div class="rounded-t bg-white mb-0 px-6 py-6">
-                  <div class="text-center flex justify-between">
-                    <h6 class="text-blueGray-700 text-xl font-bold">
+                <div class="px-6 py-6 mb-0 bg-white rounded-t">
+                  <div class="flex justify-between text-center">
+                    <h6 class="text-xl font-bold text-blueGray-700">
                       My account
                     </h6>
                     <button
-                      class="bg-pink-500 text-white active:bg-pink-600 font-bold uppercase text-xs px-4 py-2 rounded shadow hover:shadow-md outline-none focus:outline-none mr-1 ease-linear transition-all duration-150"
+                      class="px-4 py-2 mr-1 text-xs font-bold text-white uppercase transition-all duration-150 ease-linear bg-indigo-500 rounded shadow outline-none active:bg-indigo-600 hover:shadow-md focus:outline-none"
                       type="button"
                     >
                       Settings
                     </button>
                   </div>
                 </div>
-                <div class="flex-auto px-4 lg:px-10 py-10 pt-0">
+                <div class="flex-auto px-4 py-10 pt-0 lg:px-10">
                   <form>
                     <h6
-                      class="text-blueGray-400 text-sm mt-3 mb-6 font-bold uppercase"
+                      class="mt-3 mb-6 text-sm font-bold uppercase text-blueGray-400"
                     >
                       User Information
                     </h6>
                     <div class="flex flex-wrap">
-                      <div class="w-full lg:w-6/12 px-4">
+                      <div class="w-full px-4 lg:w-6/12">
                         <div class="relative w-full mb-3">
                           <label
-                            class="block uppercase text-blueGray-600 text-xs font-bold mb-2"
+                            class="block mb-2 text-xs font-bold uppercase text-blueGray-600"
                             htmlFor="grid-password"
                           >
                             Username
                           </label>
                           <input
                             type="text"
-                            class="border-0 px-3 py-3 placeholder-blueGray-300 text-blueGray-600 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
+                            class="w-full px-3 py-3 text-sm transition-all duration-150 ease-linear bg-white border-0 rounded shadow placeholder-blueGray-300 text-blueGray-600 focus:outline-none focus:ring"
                             value="lucky.jesse"
                           />
                         </div>
                       </div>
-                      <div class="w-full lg:w-6/12 px-4">
+                      <div class="w-full px-4 lg:w-6/12">
                         <div class="relative w-full mb-3">
                           <label
-                            class="block uppercase text-blueGray-600 text-xs font-bold mb-2"
+                            class="block mb-2 text-xs font-bold uppercase text-blueGray-600"
                             htmlFor="grid-password"
                           >
                             Email address
                           </label>
                           <input
                             type="email"
-                            class="border-0 px-3 py-3 placeholder-blueGray-300 text-blueGray-600 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
+                            class="w-full px-3 py-3 text-sm transition-all duration-150 ease-linear bg-white border-0 rounded shadow placeholder-blueGray-300 text-blueGray-600 focus:outline-none focus:ring"
                             value="jesse@example.com"
                           />
                         </div>
                       </div>
-                      <div class="w-full lg:w-6/12 px-4">
+                      <div class="w-full px-4 lg:w-6/12">
                         <div class="relative w-full mb-3">
                           <label
-                            class="block uppercase text-blueGray-600 text-xs font-bold mb-2"
+                            class="block mb-2 text-xs font-bold uppercase text-blueGray-600"
                             htmlFor="grid-password"
                           >
                             First Name
                           </label>
                           <input
                             type="text"
-                            class="border-0 px-3 py-3 placeholder-blueGray-300 text-blueGray-600 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
+                            class="w-full px-3 py-3 text-sm transition-all duration-150 ease-linear bg-white border-0 rounded shadow placeholder-blueGray-300 text-blueGray-600 focus:outline-none focus:ring"
                             value="Lucky"
                           />
                         </div>
                       </div>
-                      <div class="w-full lg:w-6/12 px-4">
+                      <div class="w-full px-4 lg:w-6/12">
                         <div class="relative w-full mb-3">
                           <label
-                            class="block uppercase text-blueGray-600 text-xs font-bold mb-2"
+                            class="block mb-2 text-xs font-bold uppercase text-blueGray-600"
                             htmlFor="grid-password"
                           >
                             Last Name
                           </label>
                           <input
                             type="text"
-                            class="border-0 px-3 py-3 placeholder-blueGray-300 text-blueGray-600 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
+                            class="w-full px-3 py-3 text-sm transition-all duration-150 ease-linear bg-white border-0 rounded shadow placeholder-blueGray-300 text-blueGray-600 focus:outline-none focus:ring"
                             value="Jesse"
                           />
                         </div>
@@ -732,67 +732,67 @@
                     <hr class="mt-6 border-b-1 border-blueGray-300" />
 
                     <h6
-                      class="text-blueGray-400 text-sm mt-3 mb-6 font-bold uppercase"
+                      class="mt-3 mb-6 text-sm font-bold uppercase text-blueGray-400"
                     >
                       Contact Information
                     </h6>
                     <div class="flex flex-wrap">
-                      <div class="w-full lg:w-12/12 px-4">
+                      <div class="w-full px-4 lg:w-12/12">
                         <div class="relative w-full mb-3">
                           <label
-                            class="block uppercase text-blueGray-600 text-xs font-bold mb-2"
+                            class="block mb-2 text-xs font-bold uppercase text-blueGray-600"
                             htmlFor="grid-password"
                           >
                             Address
                           </label>
                           <input
                             type="text"
-                            class="border-0 px-3 py-3 placeholder-blueGray-300 text-blueGray-600 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
+                            class="w-full px-3 py-3 text-sm transition-all duration-150 ease-linear bg-white border-0 rounded shadow placeholder-blueGray-300 text-blueGray-600 focus:outline-none focus:ring"
                             value="Bld Mihail Kogalniceanu, nr. 8 Bl 1, Sc 1, Ap 09"
                           />
                         </div>
                       </div>
-                      <div class="w-full lg:w-4/12 px-4">
+                      <div class="w-full px-4 lg:w-4/12">
                         <div class="relative w-full mb-3">
                           <label
-                            class="block uppercase text-blueGray-600 text-xs font-bold mb-2"
+                            class="block mb-2 text-xs font-bold uppercase text-blueGray-600"
                             htmlFor="grid-password"
                           >
                             City
                           </label>
                           <input
                             type="email"
-                            class="border-0 px-3 py-3 placeholder-blueGray-300 text-blueGray-600 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
+                            class="w-full px-3 py-3 text-sm transition-all duration-150 ease-linear bg-white border-0 rounded shadow placeholder-blueGray-300 text-blueGray-600 focus:outline-none focus:ring"
                             value="New York"
                           />
                         </div>
                       </div>
-                      <div class="w-full lg:w-4/12 px-4">
+                      <div class="w-full px-4 lg:w-4/12">
                         <div class="relative w-full mb-3">
                           <label
-                            class="block uppercase text-blueGray-600 text-xs font-bold mb-2"
+                            class="block mb-2 text-xs font-bold uppercase text-blueGray-600"
                             htmlFor="grid-password"
                           >
                             Country
                           </label>
                           <input
                             type="text"
-                            class="border-0 px-3 py-3 placeholder-blueGray-300 text-blueGray-600 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
+                            class="w-full px-3 py-3 text-sm transition-all duration-150 ease-linear bg-white border-0 rounded shadow placeholder-blueGray-300 text-blueGray-600 focus:outline-none focus:ring"
                             value="United States"
                           />
                         </div>
                       </div>
-                      <div class="w-full lg:w-4/12 px-4">
+                      <div class="w-full px-4 lg:w-4/12">
                         <div class="relative w-full mb-3">
                           <label
-                            class="block uppercase text-blueGray-600 text-xs font-bold mb-2"
+                            class="block mb-2 text-xs font-bold uppercase text-blueGray-600"
                             htmlFor="grid-password"
                           >
                             Postal Code
                           </label>
                           <input
                             type="text"
-                            class="border-0 px-3 py-3 placeholder-blueGray-300 text-blueGray-600 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
+                            class="w-full px-3 py-3 text-sm transition-all duration-150 ease-linear bg-white border-0 rounded shadow placeholder-blueGray-300 text-blueGray-600 focus:outline-none focus:ring"
                             value="Postal Code"
                           />
                         </div>
@@ -802,22 +802,22 @@
                     <hr class="mt-6 border-b-1 border-blueGray-300" />
 
                     <h6
-                      class="text-blueGray-400 text-sm mt-3 mb-6 font-bold uppercase"
+                      class="mt-3 mb-6 text-sm font-bold uppercase text-blueGray-400"
                     >
                       About Me
                     </h6>
                     <div class="flex flex-wrap">
-                      <div class="w-full lg:w-12/12 px-4">
+                      <div class="w-full px-4 lg:w-12/12">
                         <div class="relative w-full mb-3">
                           <label
-                            class="block uppercase text-blueGray-600 text-xs font-bold mb-2"
+                            class="block mb-2 text-xs font-bold uppercase text-blueGray-600"
                             htmlFor="grid-password"
                           >
                             About me
                           </label>
                           <textarea
                             type="text"
-                            class="border-0 px-3 py-3 placeholder-blueGray-300 text-blueGray-600 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
+                            class="w-full px-3 py-3 text-sm transition-all duration-150 ease-linear bg-white border-0 rounded shadow placeholder-blueGray-300 text-blueGray-600 focus:outline-none focus:ring"
                             rows="4"
                           >
                                 A beautiful UI Kit and Admin for JavaScript & Tailwind CSS. It is Free
@@ -831,42 +831,42 @@
                 </div>
               </div>
             </div>
-            <div class="w-full lg:w-4/12 px-4">
+            <div class="w-full px-4 lg:w-4/12">
               <div
-                class="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-xl rounded-lg mt-16"
+                class="relative flex flex-col w-full min-w-0 mt-16 mb-6 break-words bg-white rounded-lg shadow-xl"
               >
                 <div class="px-6">
                   <div class="flex flex-wrap justify-center">
-                    <div class="w-full px-4 flex justify-center">
+                    <div class="flex justify-center w-full px-4">
                       <div class="relative">
                         <img
                           alt="..."
                           src="../../assets/img/team-2-800x800.jpg"
-                          class="shadow-xl rounded-full h-auto align-middle border-none absolute -m-16 -ml-20 lg:-ml-16 max-w-150-px"
+                          class="absolute h-auto -m-16 -ml-20 align-middle border-none rounded-full shadow-xl lg:-ml-16 max-w-150-px"
                         />
                       </div>
                     </div>
-                    <div class="w-full px-4 text-center mt-20">
-                      <div class="flex justify-center py-4 lg:pt-4 pt-8">
-                        <div class="mr-4 p-3 text-center">
+                    <div class="w-full px-4 mt-20 text-center">
+                      <div class="flex justify-center py-4 pt-8 lg:pt-4">
+                        <div class="p-3 mr-4 text-center">
                           <span
-                            class="text-xl font-bold block uppercase tracking-wide text-blueGray-600"
+                            class="block text-xl font-bold tracking-wide uppercase text-blueGray-600"
                           >
                             22
                           </span>
                           <span class="text-sm text-blueGray-400">Friends</span>
                         </div>
-                        <div class="mr-4 p-3 text-center">
+                        <div class="p-3 mr-4 text-center">
                           <span
-                            class="text-xl font-bold block uppercase tracking-wide text-blueGray-600"
+                            class="block text-xl font-bold tracking-wide uppercase text-blueGray-600"
                           >
                             10
                           </span>
                           <span class="text-sm text-blueGray-400">Photos</span>
                         </div>
-                        <div class="lg:mr-4 p-3 text-center">
+                        <div class="p-3 text-center lg:mr-4">
                           <span
-                            class="text-xl font-bold block uppercase tracking-wide text-blueGray-600"
+                            class="block text-xl font-bold tracking-wide uppercase text-blueGray-600"
                           >
                             89
                           </span>
@@ -877,38 +877,38 @@
                       </div>
                     </div>
                   </div>
-                  <div class="text-center mt-12">
+                  <div class="mt-12 text-center">
                     <h3
-                      class="text-xl font-semibold leading-normal mb-2 text-blueGray-700 mb-2"
+                      class="mb-2 text-xl font-semibold leading-normal text-blueGray-700"
                     >
                       Jenna Stones
                     </h3>
                     <div
-                      class="text-sm leading-normal mt-0 mb-2 text-blueGray-400 font-bold uppercase"
+                      class="mt-0 mb-2 text-sm font-bold leading-normal uppercase text-blueGray-400"
                     >
                       <i
-                        class="fas fa-map-marker-alt mr-2 text-lg text-blueGray-400"
+                        class="mr-2 text-lg fas fa-map-marker-alt text-blueGray-400"
                       ></i>
                       Los Angeles, California
                     </div>
-                    <div class="mb-2 text-blueGray-600 mt-10">
+                    <div class="mt-10 mb-2 text-blueGray-600">
                       <i
-                        class="fas fa-briefcase mr-2 text-lg text-blueGray-400"
+                        class="mr-2 text-lg fas fa-briefcase text-blueGray-400"
                       ></i>
                       Solution Manager - Creative Tim Officer
                     </div>
                     <div class="mb-2 text-blueGray-600">
                       <i
-                        class="fas fa-university mr-2 text-lg text-blueGray-400"
+                        class="mr-2 text-lg fas fa-university text-blueGray-400"
                       ></i>
                       University of Computer Science
                     </div>
                   </div>
                   <div
-                    class="mt-10 py-10 border-t border-blueGray-200 text-center"
+                    class="py-10 mt-10 text-center border-t border-blueGray-200"
                   >
                     <div class="flex flex-wrap justify-center">
-                      <div class="w-full lg:w-9/12 px-4">
+                      <div class="w-full px-4 lg:w-9/12">
                         <p
                           class="mb-4 text-lg leading-relaxed text-blueGray-700"
                         >
@@ -920,7 +920,7 @@
                         </p>
                         <a
                           href="javascript:void(0);"
-                          class="font-normal text-pink-500"
+                          class="font-normal text-indigo-500"
                         >
                           Show more
                         </a>
@@ -932,32 +932,32 @@
             </div>
           </div>
           <footer class="block py-4">
-            <div class="container mx-auto px-4">
+            <div class="container px-4 mx-auto">
               <hr class="mb-4 border-b-1 border-blueGray-200" />
               <div
-                class="flex flex-wrap items-center md:justify-between justify-center"
+                class="flex flex-wrap items-center justify-center md:justify-between"
               >
-                <div class="w-full md:w-4/12 px-4">
+                <div class="w-full px-4 md:w-4/12">
                   <div
-                    class="text-sm text-blueGray-500 font-semibold py-1 text-center md:text-left"
+                    class="py-1 text-sm font-semibold text-center text-blueGray-500 md:text-left"
                   >
                     Copyright © <span id="get-current-year"></span>
                     <a
                       href="https://www.creative-tim.com?ref=njs-settings"
-                      class="text-blueGray-500 hover:text-blueGray-700 text-sm font-semibold py-1"
+                      class="py-1 text-sm font-semibold text-blueGray-500 hover:text-blueGray-700"
                     >
                       Creative Tim
                     </a>
                   </div>
                 </div>
-                <div class="w-full md:w-8/12 px-4">
+                <div class="w-full px-4 md:w-8/12">
                   <ul
-                    class="flex flex-wrap list-none md:justify-end justify-center"
+                    class="flex flex-wrap justify-center list-none md:justify-end"
                   >
                     <li>
                       <a
                         href="https://www.creative-tim.com?ref=njs-settings"
-                        class="text-blueGray-600 hover:text-blueGray-800 text-sm font-semibold block py-1 px-3"
+                        class="block px-3 py-1 text-sm font-semibold text-blueGray-600 hover:text-blueGray-800"
                       >
                         Creative Tim
                       </a>
@@ -965,7 +965,7 @@
                     <li>
                       <a
                         href="https://www.creative-tim.com/presentation?ref=njs-settings"
-                        class="text-blueGray-600 hover:text-blueGray-800 text-sm font-semibold block py-1 px-3"
+                        class="block px-3 py-1 text-sm font-semibold text-blueGray-600 hover:text-blueGray-800"
                       >
                         About Us
                       </a>
@@ -973,7 +973,7 @@
                     <li>
                       <a
                         href="http://blog.creative-tim.com?ref=njs-settings"
-                        class="text-blueGray-600 hover:text-blueGray-800 text-sm font-semibold block py-1 px-3"
+                        class="block px-3 py-1 text-sm font-semibold text-blueGray-600 hover:text-blueGray-800"
                       >
                         Blog
                       </a>
@@ -981,7 +981,7 @@
                     <li>
                       <a
                         href="https://github.com/creativetimofficial/notus-js/blob/main/LICENSE.md?ref=njs-settings"
-                        class="text-blueGray-600 hover:text-blueGray-800 text-sm font-semibold block py-1 px-3"
+                        class="block px-3 py-1 text-sm font-semibold text-blueGray-600 hover:text-blueGray-800"
                       >
                         MIT License
                       </a>
