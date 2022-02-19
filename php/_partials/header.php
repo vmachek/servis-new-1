@@ -8,3 +8,5 @@
 	<link rel="stylesheet" href="../../assets/styles/tailwind.css">
 	<title><?= $breadcrumb ?> | Servisní modul Fimak s.r.o</title>
 </head>
+
+<body class="antialiased text-blueGray-700">
