@@ -1,6 +1,6 @@
 <?php
 session_start();
-$_SESSION['logged'] = '';
+$_SESSION['logged'] = 'true';
 
 /** DATABASE */
 require_once "config/database.php";
@@ -12,7 +12,7 @@ require_once "_partials/nav.php";
 /** CONTENT */
 if (empty($_SESSION['logged'])) {
 	require_once "_partials/login.php";
-} elseif ($_SESSION['logged'] == TRUE) {
+} elseif ($_SESSION['logged'] == 'true') {
 	require_once "_partials/logged.php";
 }
 
