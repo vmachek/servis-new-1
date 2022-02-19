@@ -1,6 +1,9 @@
 <?php
 session_start();
 
+/** DATABASE */
+require_once "config/database.php";
+
 require_once "_partials/header.php";
 
 if (empty($_SESSION('logged'))) {
