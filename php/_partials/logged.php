@@ -6,7 +6,7 @@ if ($_SESSION['logged'] == 'true') {
 	require_once "_partials/dashboard/nav.php";
 	require_once "_partials/dashboard/content.php";
 } else {
-	require_once "_partials/system/access_denied.php";
+	require_once "_partials/_system/access_denied.php";
 }
 
 echo "</div>";
