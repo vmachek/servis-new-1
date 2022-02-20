@@ -7,7 +7,6 @@ require_once "config/database.php";
 
 /** HEADER */
 require_once "_partials/header.php";
-require_once "_partials/nav.php";
 
 /** CONTENT */
 if (empty($_SESSION['logged'])) {
