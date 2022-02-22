@@ -1,6 +1,9 @@
 <?php
+
+/** SESSION */
 session_start();
 $_SESSION['logged'] = 'true';
+$_SESSION['rights'] = 'user';
 
 /** DATABASE */
 require_once "config/database.php";

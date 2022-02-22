@@ -1,8 +1,8 @@
 <?php
 if ($_GET['page'] == 'archive') {
-	require_once "_user/archive.php";
+	require_once "archive.php";
 } elseif ($_GET['page'] == 'settings') {
-	require_once "_user/settings.php";
+	require_once "settings.php";
 } else {
-	require_once "_user/overview.php";
+	require_once "overview.php";
 }
