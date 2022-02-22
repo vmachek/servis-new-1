@@ -7,7 +7,7 @@ if ($_SESSION['logged'] == 'true') {
 	if ($_SESSION['rights'] == 'admin') {
 		require_once './_admin/admin.php';
 	} elseif ($_SESSION['rights'] == 'user') {
-		require_once './_user/user.php';
+		require_once '_partials/_user/user.php';
 	} else {
 		require_once "_system/access_denied.php";
 	}

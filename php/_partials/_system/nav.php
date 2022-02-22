@@ -3,7 +3,7 @@
 		<button class="px-3 py-1 text-xl leading-none text-black bg-transparent border border-transparent border-solid rounded opacity-50 cursor-pointer md:hidden" type="button" onclick="toggleNavbar('example-collapse-sidebar')">
 			<i class="fas fa-bars"></i>
 		</button>
-		<a class="inline-block p-4 px-0 mr-0 text-sm font-bold text-left uppercase md:block md:pb-2 text-blueGray-600 whitespace-nowrap" href="../../index.html">
+		<a class="inline-block p-4 px-0 mr-0 text-sm font-bold text-left uppercase md:block md:pb-2 text-blueGray-600 whitespace-nowrap" href="/php">
 			Přehled servisních zásahů <br>
 			<small>Firma</small>
 		</a>
@@ -29,7 +29,7 @@
 			<div class="block pb-4 mb-4 border-b border-solid md:min-w-full md:hidden border-blueGray-200">
 				<div class="flex flex-wrap">
 					<div class="w-6/12">
-						<a class="inline-block p-4 px-0 mr-0 text-sm font-bold text-left uppercase md:block md:pb-2 text-blueGray-600 whitespace-nowrap" href="../../index.html">
+						<a class="inline-block p-4 px-0 mr-0 text-sm font-bold text-left uppercase md:block md:pb-2 text-blueGray-600 whitespace-nowrap" href="/php">
 							Přehled servisních zásahů <br>
 							<small>Firma</small>
 						</a>
@@ -51,14 +51,14 @@
 
 			<ul class="flex flex-col list-none md:flex-col md:min-w-full">
 				<li class="items-center">
-					<a href="./dashboard.html" class="block py-3 text-xs font-bold text-indigo-500 uppercase hover:text-indigo-600">
+					<a href="/php" class="block py-3 text-xs font-bold text-indigo-500 uppercase hover:text-indigo-600">
 						<i class="mr-2 text-sm opacity-75 fas fa-tv"></i>
 						Přehled
 					</a>
 				</li>
 
 				<li class="items-center">
-					<a href="./tables.html" class="block py-3 text-xs font-bold uppercase text-blueGray-700 hover:text-blueGray-500">
+					<a href="?page=archive" class="block py-3 text-xs font-bold uppercase text-blueGray-700 hover:text-blueGray-500">
 						<i class="mr-2 text-sm fas fa-table text-blueGray-300"></i>
 						Archiv
 					</a>
@@ -68,7 +68,7 @@
 				<hr class="my-4 md:min-w-full" />
 
 				<li class="items-center">
-					<a href="./settings.html" class="block py-3 text-xs font-bold uppercase text-blueGray-700 hover:text-blueGray-500">
+					<a href="?page=settings" class="block py-3 text-xs font-bold uppercase text-blueGray-700 hover:text-blueGray-500">
 						<i class="mr-2 text-sm fas fa-tools text-blueGray-300"></i>
 						Nastavení
 					</a>
@@ -80,7 +80,7 @@
 <div class="relative md:ml-64 bg-blueGray-50">
 	<nav class="absolute top-0 left-0 z-10 flex items-center w-full p-4 bg-transparent md:flex-row md:flex-nowrap md:justify-start">
 		<div class="flex flex-wrap items-center justify-between w-full px-4 mx-autp md:flex-nowrap md:px-10">
-			<a class="hidden text-sm font-semibold text-white uppercase lg:inline-block" href="./index.html">Přehled</a>
+			<a class="hidden text-sm font-semibold text-white uppercase lg:inline-block" href="/">Přehled</a>
 			<ul class="flex-col items-center hidden list-none md:flex-row md:flex">
 				<a class="block text-blueGray-500" href="#pablo" onclick="openDropdown(event,'user-dropdown')">
 					<div class="flex items-center">
